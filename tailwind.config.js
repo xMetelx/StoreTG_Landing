@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./*.html"],
+  darkMode: 'class',
   theme: {
     screens: {
       'lg': {'max': '992px'},
@@ -36,6 +37,7 @@ module.exports = {
         buttonblue: '#179de1',
         buttonborder: '#d2ddec',
         buttonborderblue: '#179de1',
+        herotheme: './src/img/hero_main_theme.png'
       },
       boxShadow: {
         customblue: 'inset 0 1px hsla(0,0%,100%,.2), 0 3px 3px rgba(0,0,0,.05)'

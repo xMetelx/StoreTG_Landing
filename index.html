@@ -251,44 +251,90 @@
 
     <section class="bg-buttongray pt-8 pb-32 md:pb-16 dark:bg-buttonborder">
       <div class="wow animate__animated animate__fadeInUp container flex flex-col mt-24 bg-buttongray dark:bg-buttonborder lg:mt-0">
-        <h2 class="text-start mb-12 text-[26px] text-lightblack font-black leading-8 md:text-[24px] sm:text-center sm:text-[22px]">Часто задаваемые вопросы</h2>
-        <div class="relative border-t-[1px] border-buttonborder border-solid py-6 dark:border-lightblack">
-          <input class="absolute peer opacity-0" type="checkbox" name="first" id="first">
-          <label class="flex text-[20px] font-bold text-lightblack md:text-[18px] sm:max-w-xs" for="first">Это безопасно?</label>
-          <!-- <div class="absolute top-8 right-8 rotate-0 peer-checked:rotate-180 duration-200">
-            <object data="./src/img/arrow.svg" type="image/svg+xml" width="20"></object>
-          </div> -->
-          <div class="max-h-0 overflow-hidden peer-checked:max-h-full">
-            <p class="text-[20px] font-normal text-lightgray pt-4 md:text-[16px]">
-              Да, безопасно. Взаимодействие между пользователем, сервисом Auriva и Telegram осуществляется с использованием https протокола, который поддерживает безопасный способ передачи данных, посредством шифрования. Пароли пользователя хранятся в зашифрованном виде. Информация о платежных картах недоступна сервису Auriva и нигде не cохраняется.
-            </p>
+        <h2 class="text-start mb-10 text-[26px] text-lightblack font-black leading-8 md:text-[24px] sm:text-center sm:text-[22px]">Часто задаваемые вопросы</h2>
+
+        <div class="relative overflow-hidden border-t-[1px] border-buttonborder border-solid dark:border-lightblack">
+          <input class="peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 py-8 cursor-pointer" type="checkbox">
+          <div class="h-12 w-full py-8 flex items-center">
+            <h4 class="text-[20px] py-8 font-bold text-lightblack md:text-[18px] sm:max-w-xs">Это безопасно?</h4>
+          </div>
+          <!-- Arrow icon -->
+          <div class="absolute top-6 right-8 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" x="0px" y="0px" viewBox="0 0 511.998 511.998" style="enable-background:new 0 0 511.998 511.998;" xml:space="preserve"><path style="fill:#12263f;" d="M255.999,384.004c-2.656,0-5.313-0.99-7.375-2.958L3.29,146.379 c-4.25-4.073-4.406-10.823-0.333-15.083c4.063-4.26,10.812-4.427,15.083-0.333l237.958,227.615l237.958-227.615 c4.281-4.073,11.021-3.906,15.083,0.333c4.073,4.26,3.917,11.01-0.333,15.083L263.374,381.046 C261.311,383.015,258.655,384.004,255.999,384.004z"></path><linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-45.6831" y1="642.2841" x2="-25.8849" y2="633.0515" gradientTransform="matrix(21.3333 0 0 -21.3333 996.3579 13791.6406)"><stop offset="0" style="stop-color:#FFFFFF;stop-opacity:0.2"></stop><stop offset="1" style="stop-color:#FFFFFF;stop-opacity:0"></stop></linearGradient><path style="fill:#12263f;" d="M255.999,384.004c-2.656,0-5.313-0.99-7.375-2.958L3.29,146.379 c-4.25-4.073-4.406-10.823-0.333-15.083c4.063-4.26,10.812-4.427,15.083-0.333l237.958,227.615l237.958-227.615 c4.281-4.073,11.021-3.906,15.083,0.333c4.073,4.26,3.917,11.01-0.333,15.083L263.374,381.046 C261.311,383.015,258.655,384.004,255.999,384.004z"></path></svg>
+          </div>
+          <!-- Content -->
+          <div class="overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40">
+            <div class="pb-4">
+              <p class="text-[20px] font-normal text-lightgray max-w-5xl md:text-[16px]">
+                Да, безопасно. Взаимодействие между пользователем, сервисом Auriva и Telegram осуществляется с использованием https протокола, который поддерживает безопасный способ передачи данных, посредством шифрования. Пароли пользователя хранятся в зашифрованном виде. Информация о платежных картах недоступна сервису Auriva и нигде не cохраняется.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="relative border-t-[1px] border-buttonborder border-solid py-6 dark:border-lightblack">
+        <div class="relative overflow-hidden border-t-[1px] border-buttonborder border-solid dark:border-lightblack">
+          <input class="peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 py-8 cursor-pointer" type="checkbox">
+          <div class="h-12 w-full py-8 flex items-center">
+            <h4 class="text-[20px] py-8 font-bold text-lightblack md:text-[18px] sm:max-w-xs">Для каких товаров подходит сервис Auriva?</h4>
+          </div>
+          <!-- Arrow icon -->
+          <div class="absolute top-6 right-8 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" x="0px" y="0px" viewBox="0 0 511.998 511.998" style="enable-background:new 0 0 511.998 511.998;" xml:space="preserve"><path style="fill:#12263f;" d="M255.999,384.004c-2.656,0-5.313-0.99-7.375-2.958L3.29,146.379 c-4.25-4.073-4.406-10.823-0.333-15.083c4.063-4.26,10.812-4.427,15.083-0.333l237.958,227.615l237.958-227.615 c4.281-4.073,11.021-3.906,15.083,0.333c4.073,4.26,3.917,11.01-0.333,15.083L263.374,381.046 C261.311,383.015,258.655,384.004,255.999,384.004z"></path><linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-45.6831" y1="642.2841" x2="-25.8849" y2="633.0515" gradientTransform="matrix(21.3333 0 0 -21.3333 996.3579 13791.6406)"><stop offset="0" style="stop-color:#FFFFFF;stop-opacity:0.2"></stop><stop offset="1" style="stop-color:#FFFFFF;stop-opacity:0"></stop></linearGradient><path style="fill:#12263f;" d="M255.999,384.004c-2.656,0-5.313-0.99-7.375-2.958L3.29,146.379 c-4.25-4.073-4.406-10.823-0.333-15.083c4.063-4.26,10.812-4.427,15.083-0.333l237.958,227.615l237.958-227.615 c4.281-4.073,11.021-3.906,15.083,0.333c4.073,4.26,3.917,11.01-0.333,15.083L263.374,381.046 C261.311,383.015,258.655,384.004,255.999,384.004z"></path></svg>
+          </div>
+          <!-- Content -->
+          <div class="overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40">
+            <div class="pb-4">
+              <p class="text-[20px] font-normal text-lightgray pb-4 max-w-5xl md:text-[16px]">
+                Сервис подходит для размещения любых товаров. Чат-бот может быть создан как для крупных интернет-магазинов, так и для небольших бизнесов.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="relative overflow-hidden border-t-[1px] border-buttonborder border-solid dark:border-lightblack">
+          <input class="peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 py-8 cursor-pointer" type="checkbox">
+          <div class="h-12 w-full py-8 flex items-center">
+            <h4 class="text-[20px] py-8 font-bold text-lightblack md:text-[18px] sm:max-w-xs">Сколько стоит?</h4>
+          </div>
+          <!-- Arrow icon -->
+          <div class="absolute top-6 right-8 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" x="0px" y="0px" viewBox="0 0 511.998 511.998" style="enable-background:new 0 0 511.998 511.998;" xml:space="preserve"><path style="fill:#12263f;" d="M255.999,384.004c-2.656,0-5.313-0.99-7.375-2.958L3.29,146.379 c-4.25-4.073-4.406-10.823-0.333-15.083c4.063-4.26,10.812-4.427,15.083-0.333l237.958,227.615l237.958-227.615 c4.281-4.073,11.021-3.906,15.083,0.333c4.073,4.26,3.917,11.01-0.333,15.083L263.374,381.046 C261.311,383.015,258.655,384.004,255.999,384.004z"></path><linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-45.6831" y1="642.2841" x2="-25.8849" y2="633.0515" gradientTransform="matrix(21.3333 0 0 -21.3333 996.3579 13791.6406)"><stop offset="0" style="stop-color:#FFFFFF;stop-opacity:0.2"></stop><stop offset="1" style="stop-color:#FFFFFF;stop-opacity:0"></stop></linearGradient><path style="fill:#12263f;" d="M255.999,384.004c-2.656,0-5.313-0.99-7.375-2.958L3.29,146.379 c-4.25-4.073-4.406-10.823-0.333-15.083c4.063-4.26,10.812-4.427,15.083-0.333l237.958,227.615l237.958-227.615 c4.281-4.073,11.021-3.906,15.083,0.333c4.073,4.26,3.917,11.01-0.333,15.083L263.374,381.046 C261.311,383.015,258.655,384.004,255.999,384.004z"></path></svg>
+          </div>
+          <!-- Content -->
+          <div class="overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40">
+            <div class="pb-4">
+              <p class="text-[20px] font-normal text-lightgray pb-4 max-w-5xl md:text-[16px]">
+                В настоящий момент сервис предоставляется бесплатно. В будущем сервис останется бесплатным для чат-ботов с небольшим количеством оформленных заказов. Для остальных чат-ботов будет браться ежемесячная абонентская плата в зависимости от количества заказов.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+        <!-- <div class="relative border-t-[1px] border-buttonborder border-solid py-6 dark:border-lightblack">
           <input class="absolute peer opacity-0" type="checkbox" name="second" id="second">
-          <label class="flex text-[20px] font-bold text-lightblack md:text-[18px] sm:max-w-xs" for="second">Для каких товаров подходит Auriva?</label>
+          <label class="flex text-[20px] font-bold text-lightblack md:text-[18px] sm:max-w-xs" for="second">Для каких товаров подходит Auriva?</label> -->
           <!-- <div class="absolute top-8 right-8 rotate-0 peer-checked:rotate-180 duration-200">
             <object data="./src/img/arrow.svg" type="image/svg+xml" width="20"></object>
           </div> -->
-          <div class="max-h-0 overflow-hidden peer-checked:max-h-full">
+          <!-- <div class="max-h-0 overflow-hidden peer-checked:max-h-full">
             <p class="text-[20px] font-normal text-lightgray pt-4 md:text-[16px]">
               Сервис подходит для размещения любых товаров. Чат-бот может быть создан как для крупных интернет-магазинов, так и для небольших бизнесов.
             </p>
           </div>
-        </div>
-        <div class="relative border-t-[1px] border-buttonborder border-solid py-6 dark:border-lightblack">
+        </div> -->
+        <!-- <div class="relative border-t-[1px] border-buttonborder border-solid py-6 dark:border-lightblack">
           <input class="absolute peer opacity-0" type="checkbox" name="third" id="third">
           <label class="flex text-[20px] font-bold text-lightblack md:text-[18px] sm:max-w-xs" for="third">Сколько стоит?</label>
-          <!-- <div class="absolute top-8 right-8 rotate-0 peer-checked:rotate-180 duration-200">
+          <div class="absolute top-8 right-8 rotate-0 peer-checked:rotate-180 duration-200">
             <object data="./src/img/arrow.svg" type="image/svg+xml" width="20"></object>
-          </div> -->
+          </div>
           <div class="max-h-0 overflow-hidden peer-checked:max-h-full">
             <p class="text-[20px] font-normal text-lightgray pt-4 md:text-[16px]">
               В настоящий момент сервис предоставляется бесплатно. В будущем сервис останется бесплатным для чат-ботов с небольшим
               количеством оформленных заказов. Для остальных чат-ботов будет браться ежемесячная абонентская плата в зависимости от количества заказов.
             </p>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
     <section>
